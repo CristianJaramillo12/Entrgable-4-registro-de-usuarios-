@@ -1,0 +1,166 @@
+.app_form {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0003;
+    backdrop-filter: blur(2px);
+    transform: scale(0);
+}
+
+.app_form-visible {
+    transform: scale(1);
+}
+
+.form {
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    height: max-content;
+    position: relative;
+}
+
+.form_tittle {
+    font-size: 1.5 rem;
+    margin-bottom: 0.8em;
+}
+
+.form_x {
+    position: absolute;
+    right: 1.2em;
+    top: 1.2em;
+    font-size: 1.2em;
+    color: rgb(117, 91, 91);
+    cursor: pointer;
+    transition: transform 100ms ease;
+}
+
+.form_x:hover {
+    transform: scale(1.2);
+}
+
+.form_conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+.form_label {
+    color: black;
+    padding-left: 1em;
+}
+
+.form_imput {
+    padding: 0.4em 0.8em;
+}
+
+.form_btn {
+    width: 100px;
+    padding: 0.8em;
+    background-color: #555A88;
+    color: white;
+    cursor: pointer;
+}
+
+.app_btn-form {
+    width: 200px;
+    padding: 0.8em;
+    background-color: #555A88;
+    color: white;
+    cursor: pointer;
+    transition: transform 100ms ease;
+}
+
+.app_btn-form:hover {
+    background-color: rgb(29, 151, 199);
+    transform: scale(1.2);
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tarjet_user {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* -------- */
+
+.tarjet_unity {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    background-color: rgb(218, 218, 218);
+}
+
+.tarjet_email {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em; 
+}
+
+.tarjet_birthday_icons {
+    font-size: 0.9em;
+}
+
+.tarjet_data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+
+.tarjet_group {
+    width: 100%;
+    display: flex;
+    flex-direction: grow;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 1em;
+    gap: 0.5em;
+}
+
+.tarjet_button {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2em;
+    transition: transform 100ms ease;
+}
+
+.tarjet_button:hover {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.tarjet_button_delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bx-position{
+    font-size: 1.5em;
+}
+
